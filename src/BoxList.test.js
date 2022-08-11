@@ -6,9 +6,9 @@ function addBox(boxList, height = "50", width = "50", color = "blue") {
   const heightInput = boxList.getByLabelText("Height:");
   const widthInput = boxList.getByLabelText("Width:");
   const colorInput = boxList.getByLabelText("Color:");
-  fireEvent.change(colorInput, { target: { value: color } });
   fireEvent.change(widthInput, { target: { value: width } });
   fireEvent.change(heightInput, { target: { value: height } });
+  fireEvent.change(colorInput, { target: { value: color } });
   const button = boxList.getByText("Add Box");
   fireEvent.click(button);
 }

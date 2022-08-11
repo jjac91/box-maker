@@ -7,7 +7,7 @@ exports[`matches snapshot 1`] = `
       <label
         for="color"
       >
-        Color: 
+        Color:
       </label>
       <input
         id="color"
@@ -16,9 +16,9 @@ exports[`matches snapshot 1`] = `
         value=""
       />
       <label
-        for="color"
+        for="height"
       >
-         Height: 
+        Height:
       </label>
       <input
         id="height"
@@ -29,7 +29,7 @@ exports[`matches snapshot 1`] = `
       <label
         for="width"
       >
-         Width: 
+        Width:
       </label>
       <input
         id="width"
